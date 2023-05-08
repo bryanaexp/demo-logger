@@ -1,0 +1,10 @@
+name: Main
+on:
+  workflow_dispatch
+jobs:
+  checks:
+    name: Checks
+    runs-on: [ ubuntu-latest ]
+    steps:
+    - name: Test
+      uses: bryanaexp/simple_hello_world@v3
