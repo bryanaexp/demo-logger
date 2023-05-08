@@ -7,4 +7,4 @@ jobs:
     runs-on: [ ubuntu-latest ]
     steps:
     - name: Test
-      uses: bryanaexp/simple_hello_world@v3
+      uses: bryanaexp/Hello-World@main
